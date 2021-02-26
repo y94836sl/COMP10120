@@ -1,0 +1,116 @@
+% --- LaTeX CV Siqi Li ---
+
+% Set document class and font size
+\documentclass[letterpaper, 11pt]{article}
+\usepackage[utf8]{inputenc}
+
+% Package imports
+\usepackage{setspace, longtable, graphicx, hyphenat, hyperref, fancyhdr, ifthen, everypage, enumitem, amsmath, setspace}
+
+% --- Page layout settings ---
+
+% Set page margins
+\usepackage[left=1in, right=1in, bottom=0.7in, top=0.7in]{geometry}
+
+% Set line spacing
+\renewcommand{\baselinestretch}{1.15}
+
+% --- Page formatting ---
+
+% Set link colors
+\usepackage[dvipsnames]{xcolor}
+\hypersetup{colorlinks=true, linkcolor=RoyalBlue, urlcolor=RoyalBlue}
+
+% Set font to Libertine, including math support
+\usepackage{libertine}
+\usepackage[libertine]{newtxmath}
+
+% Remove page numbering
+\pagenumbering{gobble}
+
+% --- Document starts here ---
+
+\begin{document}
+
+% Name and date of last update to this document
+\noindent{\Huge{\textbf{Siqi Li}}
+\hfill{\it\footnotesize Updated \today}}
+
+% --- Contact information and other items ---
+
+\vspace{0.5cm} 
+\begin{center}
+\begin{tabular}{lll}
+% Line 1: Email, GitLab
+\textbf{Email}: siqi.li@student.manchester.ac.uk      &
+\hspace{0.55in} \textbf{GitLab}: y94836sl \\
+
+% Line 2: Phone number, citizenship
+\textbf{Phone}: (86) 13378845735    & 
+\hspace{0.55in}  \textbf{Citizenship}: China 
+\end{tabular}
+\end{center}
+
+% --- Start the two-column table storing the main content ---
+
+% Set spacing between columns
+\setlength{\tabcolsep}{8pt}
+
+% Set the width of each column
+\begin{longtable}{p{1.3in}p{4.8in}}
+
+
+% --- Section: Education ---
+
+\color{OliveGreen}{\textbf{\textit{Education}}} 
+& \textbf{The University of Manchester} \hfill Manchester, UK \\ 
+& 1st Year in Artificial Intelligence \hfill 2020 -- Present \\
+& \\
+
+& \textbf{IFY Engineering} \hfill Kunming Center, NCUK \\
+& International Foundation Year \hfill 2019  -- 2020\\
+& A*, A*, A {\it Math, Further Math, Physics.}\\
+& \\
+
+& \textbf{High School} \hfill Kunming, China\\
+& International Department of Kunming No.3 Middle School \hfill 2017 -- 2019 \\
+& GPA: 87\\
+& \\
+
+
+% --- Section: Experience. ---
+
+{\color{OliveGreen}{\textbf{\textit{Experience}}}} 
+& \textbf{Volunteering in Chiang Mai, Thailand} \\
+&(Teaching English to elementary school student)\hfill 2018 \\
+&\\
+&\textbf{Volunteering  in Luquan Primary School, China} \\
+&(Organized and planned a donation of books and clothes around my school to Luquan Primary School) \hfill 2017 \\
+& \\
+
+% --- Section: Various skills (programming, software, languages, etc.) ---
+
+{\color{OliveGreen}{\textbf{\textit{Skills}}}} 
+& \textbf{Programming}\\
+& Proficient in: Git, Python, MySQL, HTML, CSS, JavaScript. \\
+& Familiar with:  Java, Assembly Language, Verilog. \\
+& \\
+
+& \textbf{Languages} \\
+& Chinese (mother tongue), English (advanced) \\
+& \\
+
+% --- Section: Other interests/hobbies ---
+
+\nohyphens{\color{OliveGreen}{\textbf{\textit{Interests}}}}
+& \textbf{Professional}\\
+&Continue learning, work and develop a career in what I'm passionate about, which are all the information above. \\
+&\\
+
+&\textbf{Personal}\\
+&Be economically independent, have a balance between my work and my personal life, manage my time in the activities that I like, such as badminton, music, gardening, movies, cooking, Lego, carving, make leather goods, riding horses and playing cricket.\\
+
+% --- End of CV! ---
+
+\end{longtable}
+\end{document}
